@@ -1,130 +1,55 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cómo Crear un Presupuesto Personal</title>
     <style>
-        :root {
-            --primary-color: #2e7d32;
-            --secondary-color: #43a047;
-            --accent-color: #66bb6a;
-            --background-color: #f5f7fa;
-            --text-color: #2c3e50;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
-            font-family: 'Segoe UI', system-ui, sans-serif;
-            line-height: 1.6;
-            background: linear-gradient(135deg, var(--background-color) 0%, #e8f5e9 100%);
-            color: var(--text-color);
-            padding: 20px;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f7fa;
+            color: #333;
         }
-
         .container {
-            width: 100%;
-            max-width: 1200px;
-            margin: 0 auto;
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 15px;
-            padding: 40px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            max-width: 100%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
         }
-
         h1 {
-            color: var(--primary-color);
-            font-size: clamp(2rem, 5vw, 3rem);
-            margin-bottom: 1em;
-            border-bottom: 3px solid var(--secondary-color);
+            color: #2e7d32;
+            border-bottom: 2px solid #43a047;
             padding-bottom: 10px;
         }
-
         h2 {
-            color: var(--secondary-color);
-            font-size: clamp(1.5rem, 4vw, 2rem);
-            margin-top: 1.5em;
-            margin-bottom: 0.8em;
+            color: #388e3c;
+            margin-top: 20px;
         }
-
         h3 {
-            color: var(--accent-color);
-            font-size: clamp(1.2rem, 3vw, 1.5rem);
-            margin-top: 1em;
-            margin-bottom: 0.6em;
+            color: #43a047;
         }
-
-        p {
-            margin-bottom: 1.2em;
-            font-size: clamp(1rem, 2vw, 1.1rem);
-        }
-
-        .highlight {
-            background: linear-gradient(120deg, #c8e6c9 0%, #a5d6a7 100%);
-            padding: 20px;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-
-        .tip {
-            border-left: 4px solid var(--secondary-color);
-            padding: 20px;
-            margin: 20px 0;
-            background: rgba(67, 160, 71, 0.1);
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            margin: 20px 0;
-        }
-
         .card {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
         }
-
+        .highlight {
+            background-color: #e8f5e9;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+        .tip {
+            border-left: 3px solid #43a047;
+            padding: 10px;
+            margin: 15px 0;
+            background-color: #f5f5f5;
+        }
         ul {
-            list-style-type: none;
-            padding-left: 0;
+            padding-left: 20px;
         }
-
         li {
-            padding: 10px 0;
-            padding-left: 25px;
-            position: relative;
-        }
-
-        li:before {
-            content: "→";
-            position: absolute;
-            left: 0;
-            color: var(--secondary-color);
-        }
-
-        .budget-chart {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                padding: 20px;
-            }
-            
-            .grid {
-                grid-template-columns: 1fr;
-            }
+            margin: 8px 0;
         }
     </style>
 </head>
@@ -132,72 +57,47 @@
     <div class="container">
         <h1>Cómo Crear un Presupuesto Personal</h1>
         
-        <h2>Presupuesto Inteligente para la Era Digital</h2>
-        <p>En 2025, un presupuesto efectivo debe ser dinámico y adaptativo, aprovechando la tecnología para mantener un control preciso de las finanzas personales mientras se adapta a los cambios económicos globales.</p>
+        <h2>Presupuesto Inteligente 2025</h2>
+        <p>Un presupuesto moderno debe ser flexible y digital, adaptándose a la economía cambiante.</p>
 
-        <div class="grid">
-            <div class="card">
-                <h3>Ingresos</h3>
-                <ul>
-                    <li>Salario principal</li>
-                    <li>Ingresos por freelance</li>
-                    <li>Inversiones pasivas</li>
-                    <li>Negocios digitales</li>
-                    <li>Plataformas de economía compartida</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>Gastos Fijos</h3>
-                <ul>
-                    <li>Vivienda y servicios</li>
-                    <li>Transporte</li>
-                    <li>Seguros</li>
-                    <li>Suscripciones digitales</li>
-                    <li>Plan de salud</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>Gastos Variables</h3>
-                <ul>
-                    <li>Alimentación</li>
-                    <li>Entretenimiento</li>
-                    <li>Compras online</li>
-                    <li>Gastos imprevistos</li>
-                    <li>Desarrollo personal</li>
-                </ul>
-            </div>
+        <div class="card">
+            <h3>Ingresos</h3>
+            <ul>
+                <li>Salario principal</li>
+                <li>Ingresos freelance</li>
+                <li>Inversiones</li>
+                <li>Negocios digitales</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Gastos Esenciales</h3>
+            <ul>
+                <li>Vivienda</li>
+                <li>Alimentación</li>
+                <li>Transporte</li>
+                <li>Servicios básicos</li>
+            </ul>
         </div>
 
         <div class="highlight">
-            <h3>La Nueva Fórmula 50/30/20</h3>
-            <p><strong>50% Necesidades Básicas:</strong></p>
-            <ul>
-                <li>Vivienda y servicios básicos</li>
-                <li>Alimentación y necesidades diarias</li>
-                <li>Transporte esencial</li>
-                <li>Seguros básicos</li>
-            </ul>
-            <p><strong>30% Inversiones y Crecimiento:</strong></p>
-            <ul>
-                <li>Educación continua</li>
-                <li>Inversiones diversificadas</li>
-                <li>Fondo de emergencia</li>
-                <li>Ahorro para objetivos específicos</li>
-            </ul>
-            <p><strong>20% Deseos y Estilo de Vida:</strong></p>
-            <ul>
-                <li>Entretenimiento y ocio</li>
-                <li>Compras no esenciales</li>
-                <li>Viajes y experiencias</li>
-                <li>Hobbies y desarrollo personal</li>
-            </ul>
+            <h3>Fórmula 50/30/20</h3>
+            <p><strong>50%</strong> - Necesidades básicas</p>
+            <p><strong>30%</strong> - Inversiones y ahorro</p>
+            <p><strong>20%</strong> - Gastos personales</p>
         </div>
 
-        <h2>Herramientas Digitales Esenciales</h2>
-        <div class="grid">
-            <div class="card">
-                <h3>Seguimiento de Gastos</h3>
-                <ul>
-                    <li>Apps de gestión financiera con IA</li>
-                    <li>Conectividad con cuentas bancarias</li>
-                    <li>Categorización automática
+        <div class="tip">
+            <p>"Un presupuesto es un plan para tu libertad financiera."</p>
+        </div>
+
+        <h2>Herramientas Digitales</h2>
+        <ul>
+            <li>Apps de seguimiento financiero</li>
+            <li>Planificadores con IA</li>
+            <li>Alertas de gastos</li>
+            <li>Gestión automatizada</li>
+        </ul>
+    </div>
+</body>
+</html>
