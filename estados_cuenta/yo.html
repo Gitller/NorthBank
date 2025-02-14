@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            max-width: 100%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+        .header {
+            border-bottom: 2px solid #1a73e8;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        .client-info {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .balance {
+            background-color: #e8f0fe;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .transactions {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .transaction-item {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .transaction-item:last-child {
+            border-bottom: none;
+        }
+        .credit {
+            color: #0b8043;
+        }
+        .debit {
+            color: #d93025;
+        }
+        .summary {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        h1, h2, h3 {
+            color: #1a73e8;
+            margin: 0 0 10px 0;
+        }
+        .date {
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Estado de Cuenta</h1>
+            <div class="date">Fecha de emisión: 14 de Febrero, 2025</div>
+        </div>
+
+        <div class="client-info">
+            <h2>Información del Cliente</h2>
+            <p><strong>Nombre:</strong> YO</p>
+            <p><strong>Número de Cuenta:</strong> ****-****-2458</p>
+            <p><strong>Tipo de Cuenta:</strong> Cuenta de Ahorros</p>
+            <p><strong>Período:</strong> 15 Enero - 14 Febrero, 2025</p>
+        </div>
+
+        <div class="balance">
+            <h2>Resumen de Cuenta</h2>
+            <p><strong>Saldo Anterior:</strong> $5,280.45</p>
+            <p><strong>Depósitos y Créditos:</strong> +$3,450.00</p>
+            <p><strong>Retiros y Débitos:</strong> -$2,175.30</p>
+            <p><strong>Saldo Actual:</strong> $6,555.15</p>
+        </div>
+
+        <h2>Movimientos Recientes</h2>
+        <div class="transactions">
+            <div class="transaction-item">
+                <p><strong>14 Feb 2025</strong></p>
+                <p>Depósito Nómina</p>
+                <p class="credit">+$1,850.00</p>
+            </div>
+            <div class="transaction-item">
+                <p><strong>12 Feb 2025</strong></p>
+                <p>Pago Servicios Básicos</p>
+                <p class="debit">-$125.30</p>
+            </div>
+            <div class="transaction-item">
+                <p><strong>08 Feb 2025</strong></p>
+                <p>Transferencia Recibida</p>
+                <p class="credit">+$1,600.00</p>
+            </div>
+            <div class="transaction-item">
+                <p><strong>05 Feb 2025</strong></p>
+                <p>Retiro ATM</p>
+                <p class="debit">-$200.00</p>
+            </div>
+            <div class="transaction-item">
+                <p><strong>01 Feb 2025</strong></p>
+                <p>Pago Tarjeta de Crédito</p>
+                <p class="debit">-$1,850.00</p>
+            </div>
+        </div>
+
+        <div class="summary">
+            <h3>Información Importante</h3>
+            <p>• Mantenga sus datos actualizados para mayor seguridad</p>
+            <p>• Revise regularmente sus movimientos</p>
+            <p>• Para cualquier consulta, contacte a su ejecutivo de cuenta</p>
+            <p>• Conserve este documento para sus registros</p>
+        </div>
+    </div>
+</body>
+</html>
