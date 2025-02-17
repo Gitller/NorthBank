@@ -1,0 +1,22 @@
+{
+  "articles": [
+    {
+      "title": "Cómo ahorrar dinero",
+      "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/articles/article1.md"
+    },
+    {
+      "title": "Invertir en bolsa",
+      "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/articles/article2.md"
+    }
+  ],
+  "audios": [
+    {
+      "title": "Consejos financieros",
+      "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/audios/audio1.mp3"
+    },
+    {
+      "title": "Planificación financiera",
+      "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/audios/audio2.mp3"
+    }
+  ]
+}
