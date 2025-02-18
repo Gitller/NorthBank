@@ -18,5 +18,25 @@
       "title": "Planificación financiera",
       "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/audios/audio2.mp3"
     }
+  ],
+   "noticias": [
+    {
+      "title": "Cronogramas: Reunioes y pagos",
+      "url": "https://raw.githubusercontent.com/Gitller/NorthBank/refs/heads/main/Contenido/noticias/cronograma.html"
+    },
+    {
+      "title": "Eventos",
+      "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/audios/audio2.mp3"
+    }
+  ],
+   "normativa": [
+    {
+      "title": "Artic1",
+      "url": "https://raw.githubusercontent.com/Gitller/NorthBank/refs/heads/main/Contenido/normativa/normativa.html"
+    },
+    {
+      "title": "Artic2",
+      "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/audios/audio2.mp3"
+    }
   ]
 }
