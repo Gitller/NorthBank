@@ -13,10 +13,14 @@
     {
       "title": "Consejos financieros",
       "url": "https://gitller.github.io/NorthBank/Contenido/audios/Veni%20Vidi%20Vici.mp3"
+      "image": "https://url_de_la_imagen_1.jpg",
+      "artist": "Gitller Carrasco"
     },
     {
       "title": "Planificación financiera",
       "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/audios/audio2.mp3"
+      "image": "https://url_de_la_imagen_1.jpg",
+      "artist": "Nombre del artista 1"
     }
   ],
    "noticias": [
