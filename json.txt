@@ -1,0 +1,22 @@
+{
+  "articles": [
+    {
+      "title": "Cómo ahorrar dinero",
+      "url": "https://raw.githubusercontent.com/Gitller/NorthBank/refs/heads/main/Contenido/articles/ahorrar.html"
+    },
+    {
+      "title": "Invertir en bolsa",
+      "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/articles/article2.md"
+    }
+  ],
+  "audios": [
+    {
+      "title": "Consejos financieros",
+      "url": "https://gitller.github.io/NorthBank/Contenido/audios/Veni%20Vidi%20Vici.mp3"
+    },
+    {
+      "title": "Planificación financiera",
+      "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/audios/audio2.mp3"
+    }
+  ]
+}
