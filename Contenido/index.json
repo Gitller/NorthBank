@@ -1,26 +1,46 @@
 {
   "articles": [
     {
-      "title": "Cómo ahorrar dinero",
-      "url": "https://raw.githubusercontent.com/Gitller/NorthBank/refs/heads/main/Contenido/articles/ahorrar.html"
+      "title": "FEB: La Economía en una Lección",
+      "url": "https://raw.githubusercontent.com/Gitller/NorthBank/refs/heads/main/Contenido/articles/economia_leccion_hazlitt.html"
     },
     {
-      "title": "Invertir en bolsa",
-      "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/articles/article2.md"
+      "title": "MAR: El Inversor Inteligente",
+      "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/articles/inversor_inteligente_graham.html"
+    },
+    {
+      "title": "ABR: La Psicología del Dinero",
+      "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/articles/psicologia_dinero_housel.html"
+    },
+    {
+      "title": "MAY: El Hombre Más Rico de Babilonia",
+      "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/articles/rich_man_babylon_summary.html"
     }
   ],
   "audios": [
     {
-      "title": "Consejos financieros",
-      "url": "https://gitller.github.io/NorthBank/Contenido/audios/Veni%20Vidi%20Vici.mp3",
+      "title": "FEB: La Economía en una Lección",
+      "url": "https://gitller.github.io/NorthBank/Contenido/audios/Economics_in_One_Lesson_Hazlitt.mp3",
       "image": "https://gitller.github.io/NorthBank/Contenido/audios/audios_image.jpg",
       "artist": "Gitller Carrasco"
     },
     {
-      "title": "Planificación financiera",
-      "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/audios/audio2.mp3",
+      "title": "MAR: El Inversor Inteligente",
+      "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/audios/The_Intelligen_-Investor.mp3",
       "image": "https://gitller.github.io/NorthBank/Contenido/audios/audios_image.jpg",
-      "artist": "Nombre del artista 1"
+      "artist": "Gitller Carrasco"
+    },
+     {
+      "title": "ABR: La Psicología del Dinero",
+      "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/audios/The_Psychology_of_Money.mp3",
+      "image": "https://gitller.github.io/NorthBank/Contenido/audios/audios_image.jpg",
+      "artist": "Gitller Carrasco"
+    },
+     {
+      "title": "MAY: El Hombre Más Rico de Babilonia",
+      "url": "https://raw.githubusercontent.com/tuusuario/repositorio/main/content/audios/The_Richest_Man_in_Babylon.mp3",
+      "image": "https://gitller.github.io/NorthBank/Contenido/audios/audios_image.jpg",
+      "artist": "Gitller Carrasco"
     }
   ],
    "noticias": [
