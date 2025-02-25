@@ -1,4 +1,4 @@
-git pull origin main
-git add .
-git commit -m "Crear nueva carpeta y archivo"
-git push origin main
+. Habla en español
+. Los interlocutores deben hablar solamente en español
+. Haz un resumen mencionando cada capitulo
+. El resumen debe durar entre 20 y 25 minutos
